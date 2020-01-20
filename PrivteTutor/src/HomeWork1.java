@@ -29,11 +29,11 @@ public class HomeWork1 {
 		if(k>t && k>p) {
 			System.out.println(k+"가(이) 최대값이다.");
 		}
-		if(t>k && t>p) {
+		else if(t>k && t>p) {
 			System.out.println(t+"가(이) 최대값이다.");
 		}
 		
-		if(p>k && p>t) {
+		else if(p>k && p>t) {
 			System.out.println(p+"가(이) 최대값이다.");
 		}
 		scan.close();
